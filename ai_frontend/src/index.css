@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  background-color: #a9c9c1;
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 48px;
+}
+
+.nav-left {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-right a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.login-btn {
+  background: transparent;
+  border: 1.5px solid white;
+  border-radius: 6px;
+  padding: 6px 14px;
+  color: white;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  height: calc(100vh - 96px);
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.hero h1 {
+  font-size: 120px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #fff5f2;
+}
+
+/* CTA BUTTON */
+.cta-btn {
+  position: absolute;
+  right: 120px;
+  bottom: 180px;
+  background-color: #f6b6b3;
+  color: white;
+  border: none;
+  padding: 14px 36px;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
